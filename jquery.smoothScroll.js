@@ -13,6 +13,8 @@
         scrollTop: $(settings.target).offset().top
       }, settings.duration);
 
+      $(this).blur();
+
       return this;
     });
   };
